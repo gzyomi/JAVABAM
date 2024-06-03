@@ -38,22 +38,10 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Yellow "        °              _                  ,.-:~:-.                  _ ,.,              ,.,  ' ‘             ,.-:~:-.                                          -~·-.'´::`;-:~.~·–.,   °               ,.-:~:-.                           _             _           ";
-Write-Host -ForegroundColor Yellow "               .´/: : :/:`;            /':::::::::'`,              '/:::::/`,           /:::/';             /':::::::::'`,                                    /:::::/::::/::::::::::::::'`,                /':::::::::'`,                   ,·´/:::::'`:,   ,:´/::::'`:,'   "; 
-Write-Host -ForegroundColor Yellow "              /:/:_: /:::'i          /;:-·~·-:;':::',            /;: :;/:::\         /;:;/:'i‘           /;:-·~·-:;':::',                                  /-~·-'·´¯`·-~·––  ::;:::::'i'            /;:-·~·-:;':::',                '/  /:::::::::'`·/::/::::::::/'\     "
-Write-Host -ForegroundColor Yellow "             /·´     '`;:::;'       ,'´          '`:;::`,         ,´     `;::';       ,´   'i:'i          ,'´          '`:;::`,                                '`·,                       '`;::';         ,'´          '`:;::`,              /,·'´ ¯¯'`·;:::/:;·´ ¯ '`·;/:::i   ";
-Write-Host -ForegroundColor Yellow "             i         'i::;       /                `;::\        i        \::',      ,:    'i:';        /                `;::\                                  '`i       'i*^~;          'i / °      /                `;::\           /            '`;':/            \:::';  "
-Write-Host -ForegroundColor Yellow "             ';        'i::;°    ,'                   '`,::;      ;         ';::\ .,_';     ';:'i'     ,'                   '`,::;                                 ';       ; / ,·          .'/',      ,'                   '`,::;       ,'               `'               ';:::i°";
-Write-Host -ForegroundColor Yellow "    ,. -.,   ';        ';::;    i'       ,';´'`;         '\:::', ‘  ';         ';::/::::';     ;':;     i'       ,';´'`;         '\:::', ‘                             ';      ;' ;´         ~´;:::'i°   i'       ,';´'`;         '\:::', ‘  ,'                                  ;::i‘'";
-Write-Host -ForegroundColor Yellow "   /:::::/`:.,;       ';::;'  ,'        ;' /´:`';         ';:::'i‘   \          \/::::;'      i:/'°  ,'        ;' /´:`';         ';:::'i‘                           /´:;     ;–·:`:,          '`;:/° ,'        ;' /´:`';         ';:::'i‘  ;'       ,^,         ,:^,          'i::;°";
-Write-Host -ForegroundColor Yellow "  /;:-:;/:::::'|       ;:/`;‘ ;        ;/:;::;:';         ',:::;    '\          '`~'´     ,'/      ;        ;/:;::;:';         ',:::;                        ,/::;:'\,  '/::::::;'           'i/' ° ;        ;/:;::;:';         ',:::; 'i        ;:::\       ;/   ',         'i:;' ";
-Write-Host -ForegroundColor Yellow ",´      `·:;:·'       ;/'::/ 'i        '´        `'         'i::'/      \                  /       'i        '´        `'         'i::'/                        '.     '` '´·–·~*´           ,'  '  'i        '´        `'         'i::'/ 'i       'i::/  \     /      ;        ;/  ";
-Write-Host -ForegroundColor Yellow "';                     `;/'  ¦       '/`' *^~-·'´\         ';'/'‚       '`,             ;'         ¦       '/`' *^~-·'´\         ';'/'‚                          ` ·-.,                 ,-·´   '   ¦       '/`' *^~-·'´\         ';'/'‚  ;      'i:/     `*'´       'i       ;/ °  ";
-Write-Host -ForegroundColor Yellow "  '`·,           _,.-·'´ °  '`., .·´              `·.,_,.·´  ‚          `·.,    ,.·´           '`., .·´              `·.,_,.·´  ‚                                 '`*^~·- ·^*'´     '       '`., .·´              `·.,_,.·´  ‚  '`.    ,'                   '.     /      ";
-Write-Host -ForegroundColor Yellow "       '`'*^*'´¯    ”                                                        ¯         °                                                                                   '                                                       `*´                      `'*'´        ";
+Write-Host -ForegroundColor Red "Hi;
 Write-Host "";
 Write-Host -ForegroundColor Blue "   CREDITI:  (Shitty ScreenSharer) For Red Lotus ScreenSharing and DFIR - " -NoNewLine
-Write-Host -ForegroundColor Yellow "dsc.gg/UNCOMING...";
+Write-Host -ForegroundColor Red "dsc.gg/UNCOMING...";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
